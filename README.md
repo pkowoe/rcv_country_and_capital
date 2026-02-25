@@ -1,16 +1,40 @@
-# app_package
+# 🌍 Countries App – Flutter
 
-A new Flutter project.
+Application Flutter simple qui affiche la liste des pays du monde avec leur capitale, en utilisant une API publique.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+- Récupération des pays depuis une API REST
+- Affichage du nom du pays
+- Affichage de la capitale (si disponible)
+- Gestion des pays sans capitale
+- Bouton de rafraîchissement des données
+- Compatible Flutter Web / Android / iOS
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🛠️ Technologies utilisées
+
+- **Flutter**
+- **Dart**
+- **Dio** (pour les requêtes HTTP)
+- **API REST Countries**
+
+---
+
+## 📦 Dépendances
+
+Dans le fichier `pubspec.yaml` :
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.0.0
+
+
+
+https://restcountries.com/v3.1/all?fields=name,capital,currencies
+Pour recuperer la liste de pays du monde entier et tout ce qui va avec
